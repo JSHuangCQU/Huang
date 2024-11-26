@@ -14,6 +14,8 @@
             margin: 0;
             padding: 0;
         }
+
+        /* Header styles */
         header {
             background-color: #007b5e;
             color: white;
@@ -28,6 +30,19 @@
             font-size: 1.2em;
             margin: 10px 0;
         }
+
+        /* Profile photo position - top-right corner */
+        .profile-photo {
+            position: absolute; /* Changed from fixed to absolute */
+            top: 20px;  /* Adjust the distance from the top */
+            right: 20px;  /* Adjust the distance from the right */
+            width: 350px; /* Adjust the size of your photo */
+            height: auto;
+            border-radius: 50%; /* Makes the photo circular */
+            border: 3px solid #fff; /* Optional: adds a white border around the photo */
+        }
+
+        /* Main content container */
         .container {
             max-width: 1200px;
             margin: 20px auto;
@@ -36,21 +51,26 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         .section-title {
             font-size: 1.8em;
             margin-bottom: 10px;
             color: #007b5e;
         }
+
         .section-content {
             font-size: 1.1em;
             margin-bottom: 20px;
         }
+
         .section-content ul {
             padding-left: 20px;
         }
+
         .section-content li {
             margin-bottom: 10px;
         }
+
         footer {
             text-align: center;
             padding: 10px;
@@ -60,6 +80,7 @@
             width: 100%;
             bottom: 0;
         }
+
         a {
             color: #007b5e;
             text-decoration: none;
@@ -71,12 +92,17 @@
 </head>
 <body>
 
+    <!-- Your Profile Picture -->
+    <img src="hjs.jpg" alt="黄江帅" class="profile-photo">
+
+    <!-- Header -->
     <header>
         <h1>黄江帅 教授</h1>
         <p>重庆大学自动化学院</p>
         <p>邮箱: jshuang@cqu.edu.cn</p>
     </header>
 
+    <!-- Main Content -->
     <div class="container">
         <section>
             <h2 class="section-title">个人信息</h2>
