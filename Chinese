@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>黄江帅 教授 - 重庆大学</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #007b5e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Profile photo position - top-right corner */
+        .profile-photo {
+            position: absolute; /* Changed from fixed to absolute */
+            top: 20px;  /* Adjust the distance from the top */
+            right: 20px;  /* Adjust the distance from the right */
+            width: 350px; /* Adjust the size of your photo */
+            height: auto;
+            border-radius: 50%; /* Makes the photo circular */
+            border: 3px solid #fff; /* Optional: adds a white border around the photo */
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #007b5e;
+        }
+
+        .section-content {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .section-content ul {
+            padding-left: 20px;
+        }
+
+        .section-content li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            color: #007b5e;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Your Profile Picture -->
+    <img src="hjs.jpg" alt="黄江帅" class="profile-photo">
+
+    <!-- Header -->
+    <header>
+        <h1>Jiangshuai Huang</h1>
+        <p>School of Automation, Chongqing University</p>
+        <p>mail: jshuang@cqu.edu.cn</p>
+    </header>
+    
+    <div class="button-container">
+        <a href="publications.html" class="button">Publications</a>
+        <a href="patents.html" class="button">Patents</a>
+        <a href="projects.html" class="button">Projects</a>
+        <a href="contact.html" class="button">Contact</a>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <section>
+            <h2 class="section-title">个人信息</h2>
+            <div class="section-content">
+                <p><strong>职位:</strong> 教授，博导</p>
+                <p><strong>办公室:</strong> 重庆市高新区大学城南路55号虎溪校区信息大楼A321-1</p>
+                <p><strong>Google学术主页:</strong> <a href="http://scholar.google.com.sg/citations?user=dZFINZEAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">教育背景</h2>
+            <div class="section-content">
+                <ul>
+                    <li>2010年8月 - 2014年5月，南洋理工大学，电气与电子工程学院，博士，导师：Changyun Wen教授</li>
+                    <li>2007年9月 - 2009年7月，华中科技大学，自动化学院，硕士</li>
+                    <li>2003年9月 - 2007年7月，华中科技大学，自动化学院，学士</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">工作经历</h2>
+            <div class="section-content">
+                <ul>
+                    <li>2016年10月至今，重庆大学，自动化学院，教授</li>
+                    <li>2014年5月 - 2016年10月，新加坡国立大学，电气与计算机工程系，Research Fellow</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">研究兴趣</h2>
+            <div class="section-content">
+                <ul>
+                    <li>人工智能</li>
+                    <li>多智能体系统</li>
+                    <li>网络物理系统</li>
+                    <li>机器人系统</li>
+                    <li>自适应控制</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">学术奖励与荣誉</h2>
+            <div class="section-content">
+                <ul>
+                    <li>2013年，第25届中国控制与决策会议Zhang Si-Ying Outstanding Youth Paper Award</li>
+                    <li>2016年，重庆大学百人计划学者</li>
+ 	    <li>2016年，重庆市高层次人才奖励计划</li>
+ 	    <li>2018年，中国指挥与控制学会科学技术进步奖（一等奖）</li>
+ 	    <li>2018年，重庆市自然科学奖（二等奖）</li>
+ 	    <li>2019年，首届军科委智创杯前沿技术挑战赛（第三名）</li>
+ 	    <li>2020年，重庆市自然科学奖（一等奖）</li>
+ 	    <li>2021年，中国自动化学学会自然科学奖（一等奖）</li>
+ 	    <li>2022年，斯坦福全球前2%顶尖科学家</li>
+                    <li>2023年，IEEE SMC Best Associate Editor Award</li>
+                    <li>2023年，IEEE Outstanding SMC Chapter Award (co-Chair)</li>
+                    <li>2023年，控制与决策会议年度最佳论文奖</li>
+                    <li>2024年，重庆市学科带头人（控制科学与工程）</li>
+                    <li>2024年，入选国家级青年人才项目（中组部万人计划青年拔尖人才）</li>
+                    <!-- More items here -->
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">学术服务</h2>
+            <div class="section-content">
+                <ul>
+                    <li>IEEE Transactions on Cybernetics, Associate Editor</li>
+                    <li>IEEE Transactions on  Industrial Electronics, Associate Editor</li>
+                    <li>Frontiers in Control Engineering, Associate Editor</li>
+                    <li>Journal of Information Processing Systems, Associate Editor</li>
+                    <li>Electronics, Associate Editor</li>
+                    <li>IEEE SMCS and IEEE RAS Beijing Section Joint Chapter, Co-Chair</li>
+                    <li>中国控制与决策会议，编委</li>
+                    <!-- More items here -->
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">主持项目</h2>
+            <div class="section-content">
+                <ul>
+                    <li>自主动态规划与实时跟踪控制，国家重点研发计划，165万元，2019年</li>
+                    <li>可重复使用运载火箭的轨迹优化与自适应控制，教育部科技发展中心，100万元，2019年</li>
+                    <li>针对不确定非线性系统及网络攻击的模块化自适应控制设计，国家自然科学基金面上项目，62万元，2021年</li>
+                    <li>针对不确定欠驱动系统的自适应与输出反馈控制，国家自然科学基金青年项目，29万元，2018年</li>
+                    <li>面向网络攻击的信息物理系统自适应控制研究，外传项目，40万元，2023年</li>
+                    <li>多机器人系统分布式协同控制与优化，中央高校基本科研业务费， 50万元，2024年</li>
+                    <li>面向安防监测应用的自主多移动机器人系统智能控制研究，中央高校基本科研业务费， 23万元，2019年</li>
+                    <li>不确定欠驱动系统的鲁棒自适应容错与编队控制，重庆市科学技术委员会，10万元，2019年</li>
+                    <li>面向酿酒过程的智能机器人操作系统，中央高校基本科研业务费，10万元，2018年</li>
+                    <li>城市生态空间的智能清洁平台，中央高校基本科研业务费，15万元，2019年</li>
+                    <!-- More projects here -->
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">学术出版物</h2>
+            <div class="section-content">
+                <p><strong>专著：</strong></p>
+                <ul>
+                    <li>Jiangshuai Huang, Yongduan Song, <i>Adaptive and Fault-Tolerant Control of Underactuated Nonlinear Systems</i>, Taylor & Francis, 2017</li>
+                    <li>Wei Wang, Jiang Long, Jiangshuai Huang, Changyun Wen, <i>Distributed Adaptive Consensus Control of Uncertain Multi-Agent Systems</i>, CRC Press, 2024</li>
+                </ul>
+                <p><strong>代表性论文：</strong></p>
+                <ul>
+<li>[1].	W. Wang, J. Huang, C. Wen, and H. Fan, "Distributed adaptive control for consensus tracking with application to formation control of nonholonomic mobile robots," Automatica, vol. 50, no. 4, pp. 1254-1263, 2014. Citations: 507. </li>
+<li>[2].	W. Wang, C. Wen, and J. Huang, "Distributed adaptive asymptotically consensus tracking control of nonlinear multi-agent systems with unknown parameters and uncertain disturbances," Automatica, vol. 77, pp. 133-142, 2017. Citations: 350. </li>
+<li>[3].	J. Huang, C. Wen, W. Wang, and Y. D. Song, "Adaptive finite-time consensus control of a group of uncertain nonlinear mechanical systems," Automatica, vol. 51, pp. 292-301, 2015. Citations: 262. </li>
+<li>[4].	C. Deng, C. Wen, J. Huang, X. M. Zhang, and Y. Zou, "Distributed observer-based cooperative control approach for uncertain nonlinear MASs under event-triggered communication," IEEE Transactions on Automatic Control, vol. 67, no. 5, pp. 2669-2676, 2021. Citations: 240. </li>
+<li>[5].	J. Huang, C. Wen, W. Wang, and Z. P. Jiang, "Adaptive output feedback tracking control of a nonholonomic mobile robot," Automatica, vol. 50, no. 3, pp. 821-831, 2014. Citations: 227. </li>
+<li>[6].	J. Huang, C. Wen, W. Wang, and Z. P. Jiang, "Adaptive stabilization and tracking control of a nonholonomic mobile robot with input saturation and disturbance," Systems & Control Letters, vol. 62, no. 3, pp. 234-241, 2013. Citations: 223. </li>
+<li>[7].	J. Huang, W. Wang, C. Wen, and G. Li, "Adaptive event-triggered control of nonlinear systems with controller and parameter estimator triggering," IEEE Transactions on Automatic Control, vol. 65, no. 1, pp. 318-324, 2019. Citations: 209. </li>
+<li>[8].	J. Huang, C. Wen, W. Wang, and Y. D. Song, "Design of adaptive finite-time controllers for nonlinear uncertain systems based on given transient specifications," Automatica, vol. 69, pp. 395-404, 2016. Citations: 175. </li>
+<li>[9].	J. Huang, W. Wang, C. Wen, and J. Zhou, "Adaptive control of a class of strict-feedback time-varying nonlinear systems with unknown control coefficients," Automatica, vol. 93, pp. 98-105, 2018. Citations: 151. </li>
+<li>[10].	J. Huang, W. Wang, C. Wen, J. Zhou, and G. Li, "Distributed adaptive leader–follower and leaderless consensus control of a class of strict-feedback nonlinear systems: A unified approach," Automatica, vol. 118, pp. 109021, 2020. Citations: 147. </li>
+<li>[11].	J. Huang, C. Wen, W. Wang, and Y. D. Song, "Global stable tracking control of underactuated ships with input saturation," Systems & Control Letters, vol. 85, pp. 1-7, 2015. Citations: 144. </li>
+<li>[12].	W. Wang, C. Wen, J. Huang, and J. Zhou, "Adaptive consensus of uncertain nonlinear systems with event triggered communication and intermittent actuator faults," Automatica, vol. 111, pp. 108667, 2020. Citations: 135. </li>
+<li>[13].	J. Huang, Y. Song, W. Wang, C. Wen, and G. Li, "Fully distributed adaptive consensus control of a class of high-order nonlinear systems with a directed topology and unknown control directions," IEEE Transactions on Cybernetics, vol. 48, no. 8, pp. 2349-2356, 2018. Citations: 109. </li>
+<li>[14].	J. Huang, Y. D. Song, W. Wang, C. Wen, and G. Li, "Smooth control design for adaptive leader-following consensus control of a class of high-order nonlinear systems with time-varying reference," Automatica, vol. 83, pp. 361-367, 2017. Citations: 103. </li>
+<li>[15].	W. Wang, J. Long, J. Zhou, J. Huang, and C. Wen, "Adaptive backstepping based consensus tracking of uncertain nonlinear systems with event-triggered communication," Automatica, vol. 133, pp. 109841, 2021. Citations: 90. </li>
+<li>[16].	Y. Yang, J. Huang, X. Su, K. Wang, and G. Li, "Adaptive control of second-order nonlinear systems with injection and deception attacks," IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, no. 1, pp. 574-581, 2020. Citations: 90. </li>
+<li>[17].	W. Wang, C. Wen, J. Huang, and Z. Li, "Hierarchical decomposition based consensus tracking for uncertain interconnected systems via distributed adaptive output feedback control," IEEE Transactions on Automatic Control, vol. 61, no. 7, pp. 1938-1945, 2015. Citations: 90. </li>
+<li>[18].	R. Gao, J. Huang, and L. Wang, "Leaderless consensus control of uncertain multi-agents systems with sensor and actuator attacks," Information Sciences, vol. 505, pp. 144-156, 2019. Citations: 75. </li>
+<li>[19].	J. Long, W. Wang, C. Wen, J. Huang, and J. Lü, "Output feedback based adaptive consensus tracking for uncertain heterogeneous multi-agent systems with event-triggered communication," Automatica, vol. 136, pp. 110049, 2022. Citations: 62. </li>
+<li>[20].	J. Huang, W. Wang, and J. Zhou, "Adaptive control design for underactuated cranes with guaranteed transient performance: theoretical design and experimental verification," IEEE Transactions on Industrial Electronics, vol. 69, no. 3, pp. 2822-2832, 2021. Citations: 62. </li>
+<li>[21].	W. Wang, J. Huang, C. Wen, "Prescribed performance bound‐based adaptive path‐following control of uncertain nonholonomic mobile robots," International Journal of Adaptive Control and Signal Processing, vol. 31, no. 5, pp. 805-822, 2017. Citations: 62. </li>
+<li>[22].	J. Huang, L. Zhao, Q. G. Wang, "Adaptive control of a class of strict feedback nonlinear systems under replay attacks," ISA transactions, vol. 107, pp. 134-142, 2020. Citations: 54. </li>
+<li>[23].	Z. Liu, J. Huang, C. Wen, X. Su, "Distributed control of nonlinear systems with unknown time-varying control coefficients: A novel Nussbaum function approach," IEEE Transactions on Automatic Control, vol. 68, no. 7, pp. 4191-4203, 2022. Citations: 49. </li>
+<li>[24].	J. Huang, Q. G. Wang, "Decentralized adaptive control of interconnected nonlinear systems with unknown control directions," ISA transactions, vol. 74, pp. 60-66, 2018. Citations: 49. </li>
+<li>[25].	T. Gao, J. Huang, Y. Zhou, Y. D. Song, "Robust adaptive tracking control of an underactuated ship with guaranteed transient performance," International Journal of Systems Science, vol. 48, no. 2, pp. 272-279, 2017. Citations: 49. </li>
+<li>[26].	J. Huang, W. Wang, X. Su, "Adaptive iterative learning control of multiple autonomous vehicles with a time-varying reference under actuator faults," IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 12, pp. 5512-5525, 2021. Citations: 44. </li>
+<li>[27].	J. Long, W. Wang, J. Huang, J. Lü, K. Liu, "Adaptive leaderless consensus for uncertain high-order nonlinear multiagent systems with event-triggered communication," IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, no. 11, pp. 7101-7111, 2022. Citations: 41. </li>
+<li>[28].	T. Ma, T. Yu, J. Huang, X. Yang, Z. Gu, "Adaptive odd impulsive consensus of multi-agent systems via comparison system method," Nonlinear Analysis: Hybrid Systems, vol. 35, pp. 100824, 2020. Citations: 40. </li>
+<li>[29].	G. Zhang, S. Liu, J. Huang, W. Zhang, "Dynamic event-triggered path-following control of underactuated surface vehicle with the experiment verification," IEEE Transactions on Vehicular Technology, vol. 71, no. 10, pp. 10415-10425, 2022. Citations: 39. </li>
+<li>[30].	Z. Han, W. Wang, J. Huang, Z. Wang, "Distributed adaptive formation tracking control of mobile robots with event-triggered communication and denial-of-service attacks," IEEE Transactions on Industrial Electronics, vol. 70, no. 4, pp. 4077-4087, 2022. Citations: 39. </li>
+<li>[31].	J. Huang, Q. G. Wang, "Event-triggered adaptive control of a class of nonlinear systems," ISA transactions, vol. 94, pp. 10-16, 2019. Citations: 39. </li>
+<li>[32].	J. Long, W. Wang, J. Huang, J. Zhou, K. Liu, "Distributed adaptive control for asymptotically consensus tracking of uncertain nonlinear systems with intermittent actuator faults and directed communication topology," IEEE Transactions on Cybernetics, vol. 51, no. 8, pp. 4050-4061, 2019. Citations: 37. </li>
+<li>[33].	Z. Liu, H. Huang, J. H. Park, J. Huang, X. Wang, M. Lv, "Adaptive fuzzy control for unknown nonlinear multiagent systems with switching directed communication topologies," IEEE Transactions on Fuzzy Systems, vol. 31, no. 7, pp. 2487-2494, 2023. Citations: 34. </li>
+<li>[34].	Q. Cui, J. Huang, T. Gao, "Adaptive leaderless consensus control of uncertain multiagent systems with unknown control directions," International Journal of Robust and Nonlinear Control, vol. 30, no. 15, pp. 6229-6240, 2020. Citations: 34. </li>
+<li>[35].	W. Wang, J. Long, C. Wen, J. Huang, "Recent advances in distributed adaptive consensus control of uncertain nonlinear multi-agent systems," Journal of Control and Decision, vol. 7, no. 1, pp. 44-63, 2020. Citations: 34. </li>
+<li>[36].	W. Wang, C. Wen, J. Huang, H. Fan, "Distributed adaptive asymptotically consensus tracking control of uncertain Euler-Lagrange systems under directed graph condition," ISA transactions, vol. 71, pp. 121-129, 2017. Citations: 33. </li>
+<li>[37].	T. Jiang, J. Huang, B. Li, "Composite adaptive finite-time control for quadrotors via prescribed performance," Journal of the Franklin Institute, vol. 357, no. 10, pp. 5878-5901, 2020. Citations: 32. </li>
+<li>[38].	C. Yu, Q. G. Wang, D. Zhang, L. Wang, J. Huang, "System identification in presence of outliers," IEEE transactions on cybernetics, vol. 46, no. 5, pp. 1202-1216, 2015. Citations: 30. </li>
+<li>[39].	J. Long, W. Wang, K. Liu, J. Huang, "Adaptive time‐varying formation control of uncertain Euler–Lagrange systems with event‐triggered communication," International Journal of Robust and Nonlinear Control, vol. 31, no. 18, pp. 9026-9039, 2021. Citations: 27. </li>
+<li>[40].	Y. Yang, J. Huang, X. Su, B. Deng, "Adaptive control of cyber-physical systems under deception and injection attacks," Journal of the Franklin Institute, vol. 358, no. 12, pp. 6174-6194, 2021. Citations: 27. </li>
+<li>[41].	R. Gao, J. Huang, "Leader‐following consensus of uncertain strict feedback multiagent systems subject to sensor and actuator attacks," International Journal of Robust and Nonlinear Control, vol. 30, no. 17, pp. 7635-7654, 2020. Citations: 23. </li>
+<li>[42].	J. Gao, L. Wang, R. Gao, J. Huang, "Adaptive control of uncertain underactuated cranes with a non-recursive control scheme," Journal of the Franklin Institute, vol. 356, no. 18, pp. 11305-11317, 2019. Citations: 23. </li>
+<li>[43].	W. Wang, C. Wen, J. Huang, "Adaptive consensus tracking control of uncertain nonlinear systems: A first-order example," in Proceedings of the 12th International Conference on Control, Automation, Robotics & Vision, 2012. Citations: 21. </li>
+<li>[44].	T. Gao, J. Huang, Y. Zhou, Q. G. Wang, "Finite-time consensus control of second-order nonlinear systems with input saturation," Transactions of the Institute of Measurement and Control, vol. 38, no. 11, pp. 1381-1391, 2016. Citations: 19. </li>
+<li>[45].	J. Ding, C. Wen, G. Li, P. Tu, D. Ji, Y. Zou, J. Huang, "Target controllability in multilayer networks via minimum-cost maximum-flow method," IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 5, pp. 1949-1962, 2020. Citations: 17. </li>
+<li>[46].	G. Zhang, S. Chu, J. Huang, W. Zhang, "Robust adaptive fault-tolerant control for unmanned surface vehicle via the multiplied event-triggered mechanism," Ocean Engineering, vol. 249, 110755, 2022. Citations: 16. </li>
+<li>[47].	Z. Zheng, X. Su, T. Jiang, J. Huang, "Robust dynamic geofencing attitude control for quadrotor systems," IEEE Transactions on Industrial Electronics, vol. 70, no. 2, pp. 1861-1869, 2022. Citations: 16. </li>
+<li>[48].	G. Li, J. Ding, C. Wen, J. Huang, "Minimum cost control of directed networks with selectable control inputs," IEEE transactions on cybernetics, vol. 49, no. 12, pp. 4431-4440, 2018. Citations: 16. </li>
+<li>[49].	W. Ao, J. Huang, Q. Cui, R. V. Sanchez, "Finite-time leaderless consensus control of a group of Euler-Lagrangian systems with backlash nonlinearities," Journal of the Franklin Institute, vol. 356, no. 16, pp. 9286-9301, 2019. Citations: 14. </li>
+<li>[50].	W. Wang, C. Wen, Z. Li, J. Huang, "Hierarchical decomposition based distributed adaptive control for output consensus tracking of uncertain nonlinear systems," in Proceedings of the American Control Conference, pp. 4921-4926, 2013. Citations: 14. </li>
+                    <!-- More papers here -->
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">专利列表</h2>
+            <div class="section-content">
+                <ul>
+                    <li>一种四自由度四抓取点的夹取装置</li>
+                    <li>基于UWB的多机器人分布式协同定位与编队控制方法</li>
+                    <li>一种基于事件触发的高超声速飞行器模糊控制方法</li>
+                    <li>基于事件触发的双摆效应桥式吊车的增强消摆控制方法</li>
+                    <li>一种基于小波变换的多机器人地图融合方法</li>
+                    <li>基于反步法的双摆效应桥式吊车预设时间运输控制方法</li>
+                    <li>触感指尖传感器及其操作系统与数据处理方法</li>
+                    <li>一种非线性双机互联系统的有限时间控制方法及系统</li>
+                    <li>一种远程解除巡逻机器人急停的方法、装置和系统</li>
+                    <li>一种基于移动机器人的SLAM回环检测方法</li>
+                    <li>一种实现轮式移动机器人实时避障的路径规划方法</li>
+                    <li>一种小型可组合移动机器人及其混合控制方法</li>
+                    <li>一种远程解除巡逻机器人急停的方法、装置和系统</li>
+                    <li>一种四轮驱动机器人及其底盘</li>
+                    <li>一种多路电机一体化分时控制系统与控制方法</li>
+                    <li>基于事件触发机制的可重复使用运载系统的滑模控制方法</li>
+                    <li>基于移动目标防御的电网防御方法、系统、设备及介质</li>
+                    <li>多区域不确定电力系统负荷频率控制方法、系统及设备</li>
+                    <li>无线设备指纹识别方法、系统、设备及可读存储介质</li>
+                    <li>基于特征行为分析的被动式工控设备指纹识别方法及装置</li>
+                    <!-- More patents here -->
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 黄江帅 教授 | 重庆大学自动化学院</p>
+    </footer>
+    
+</body>
+</html>
