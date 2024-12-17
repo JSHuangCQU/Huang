@@ -1,32 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>黄江帅 教授 - 重庆大学</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
-        }
-        h1 {
-            text-align: center;
+            background-color: #f4f4f4;
             color: #333;
+            margin: 0;
+            padding: 0;
         }
-        ul {
+
+        /* Header styles */
+        header {
+            background-color: #007b5e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Profile photo position - top-right corner */
+        .profile-photo {
+            position: absolute; /* Changed from fixed to absolute */
+            top: 20px;  /* Adjust the distance from the top */
+            right: 20px;  /* Adjust the distance from the right */
+            width: 350px; /* Adjust the size of your photo */
+            height: auto;
+            border-radius: 50%; /* Makes the photo circular */
+            border: 3px solid #fff; /* Optional: adds a white border around the photo */
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #007b5e;
+        }
+
+        .section-content {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .section-content ul {
             padding-left: 20px;
         }
-        li {
+
+        .section-content li {
             margin-bottom: 10px;
         }
-        .reference {
-            font-size: 14px;
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            color: #007b5e;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+                /* Styling for the button container */
+        .button-container {
+            text-align: center; /* Center the buttons */
+            margin-top: 20px;
+        }
+
+        /* Styling for the buttons */
+        .button {
+            display: inline-block; /* Make the buttons inline */
+            margin: 10px; /* Add space between buttons */
+            padding: 15px 25px; /* Increase padding for larger buttons */
+            font-size: 16px; /* Increase font size for better readability */
+            text-decoration: none; /* Remove underline from links */
+            color: white; /* Text color */
+            background-color: #007BFF; /* Button background color (blue) */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Add hover effects */
+        }
+
+        /* Hover effect for buttons */
+        .button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: scale(1.1); /* Slightly enlarge on hover */
         }
     </style>
 </head>
 <body>
-    <h1>Representative Publications</h1>
+
+    <!-- Your Profile Picture -->
+    <img src="hjs.jpg" alt="黄江帅" class="profile-photo">
+
+    <!-- Header -->
+    <header>
+        <h1>Jiangshuai Huang</h1>
+        <p>School of Automation, Chongqing University</p>
+        <p>mail: jshuang@cqu.edu.cn</p>
+    </header>
+    
+    <div class="button-container">
+        <a href="Chinese.html" class="button">中文简历</a>
+        <a href="publications.html" class="button">Publications</a>
+        <a href="patents.html" class="button">Patents</a>
+        <a href="projects.html" class="button">Projects</a>
+        <a href="contact.html" class="button">Contact</a>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="container">
+<body>
+    <h1>Representative Papers</h1>
     <ul>
 <li>[1].	W. Wang, J. Huang, C. Wen, and H. Fan, "Distributed adaptive control for consensus tracking with application to formation control of nonholonomic mobile robots," Automatica, vol. 50, no. 4, pp. 1254-1263, 2014. </li>
 <li>[2].	W. Wang, C. Wen, and J. Huang, "Distributed adaptive asymptotically consensus tracking control of nonlinear multi-agent systems with unknown parameters and uncertain disturbances," Automatica, vol. 77, pp. 133-142, 2017.  </li>
@@ -80,5 +191,30 @@
 <li>[50].	W. Wang, C. Wen, Z. Li, J. Huang, "Hierarchical decomposition based distributed adaptive control for output consensus tracking of uncertain nonlinear systems," in Proceedings of the American Control Conference, pp. 4921-4926, 2013. </li>
         <!-- Add more entries as needed using the same format -->
     </ul>
+</body>
+<section>
+<h2 class="section-title">Academic Services</h2>
+<div class="section-content">
+<ul>
+<li>Associate Editor of IEEE Transactions on Cybernetics.</li>
+<li>Associate Editor of IEEE Transactions on Industrial Electronics.</li>
+<li>Associate Editor of Frontiers in Control Engineering.</li>
+<li>Associate Editor of Journal of Information Processing Systems.</li>
+<li>Associate Editor of Electronics.</li>
+<li>Co-Chair of IEEE SMCS and IEEE RAS Beijing Section Joint Chapter.</li>
+<li>Editorial Board Member of the Chinese Control and Decision Conference.</li>
+    <li>    </li>
+
+<!-- More items here -->
+</ul>
+</div>
+</section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 黄江帅 教授 | 重庆大学自动化学院</p>
+    </footer>
+    
 </body>
 </html>
