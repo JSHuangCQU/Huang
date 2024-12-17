@@ -226,4 +226,49 @@
     </footer>
     
 </body>
+ <body>
+    <!-- 创建一个用于显示数字雨的容器 -->
+    <div class="matrix"></div>
+
+    <script>
+        // 获取页面中的数字雨容器元素
+        const matrix = document.querySelector('.matrix');
+
+        // 定义数字雨的字符集，这里主要是数字和一些常见符号，可以按需修改
+        const characters = '0123456789!@#$%^&*()_+-=[]{}|;:\'",./<>?';
+
+        // 生成一列数字雨的函数
+        function createColumn() {
+            const column = document.createElement('span');
+            column.style.position = 'absolute';
+            column.style.left = `${Math.random() * 100}%`;
+            const length = Math.floor(Math.random() * 20 + 10);
+            for (let i = 0; i < length; i++) {
+                const char = document.createElement('span');
+                char.textContent = characters.charAt(Math.floor(Math.random() * characters.length));
+                char.style.display = 'inline-block';
+                char.style.animationDelay = `${i * 0.1}s`;
+                column.appendChild(char);
+            }
+            matrix.appendChild(column);
+            return column;
+        }
+
+        // 不断创建数字雨列的函数，模拟出大量数字雨下落效果
+        function createColumns() {
+            const numColumns = 80;
+            for (let i = 0; i < numColumns; i++) {
+                const column = createColumn();
+                column.style.animationDuration = `${Math.random() * 5 + 5}s`;
+                column.style.animationTimingFunction = 'linear';
+                column.style.animationIterationCount = 'infinite';
+            }
+        }
+
+        // 页面加载完成后执行创建数字雨的函数
+        window.onload = function () {
+            createColumns();
+        };
+    </script>
+</body>   
 </html>
